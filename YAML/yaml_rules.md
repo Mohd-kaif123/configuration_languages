@@ -53,6 +53,15 @@ float_value: 3.14                # float
 boolean_value: true              # boolean (true/false, yes/no bhi chalta hai)
 null_value: null                 # null (ya ~ bhi use hota hai)
 
+# Rule 5: Data types
+
+| Key / Syntax | Data Type | Description / Sub-rules |
+| :--- | :--- | :--- |
+| `string_value: "Hello World"` | **String** | Quotes (`" "` ya `' '`) optional hote hain, par special characters hon toh quotes zaroori hain. |
+| `number_value: 42` | **Integer** | Normal whole numbers (positive ya negative). |
+| `float_value: 3.14` | **Float** | Decimal wale numbers. |
+| `boolean_value: true` | **Boolean** | `true`/`false` use hota hai (kuch parsers me `yes`/`no` ya `on`/`off` bhi chal jata hai). |
+| `null_value: null` | **Null** | Empty value ke liye `null` likhte hain, ya fir sirf tilde (`~`) sign bhi use kar sakte hain. |
 
 # Rule 6: Multi-line strings
 yamldescription: |
