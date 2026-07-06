@@ -21,3 +21,7 @@
 
 
 DevOps interview angle: Interviewer ye zaroor pucheg — "YAML kaha kaha use hota hai apki knowledge me?" — to Kubernetes aur Ansible ka naam zaroor lena, kyunki wahan YAML ki depth zyada dikhani padti hai.
+
+
+5. Real-World Use Cases (GitHub Actions ke alawa) — ye tumhare interview ke liye important hai
+ToolYAML file ka useDocker Composedocker-compose.yml — multi-container apps define karne ke liyeKubernetesPod, Deployment, Service definitions (deployment.yaml, service.yaml)AnsiblePlaybooks (playbook.yml) — server automation ke steps define karte hainGitLab CI/CD.gitlab-ci.yml — pipeline stages define karte hainCircleCI.circleci/config.ymlHelm (K8s package manager)values.yaml, Chart.yamlAWS CloudFormation / Serverless FrameworkInfrastructure as Code templatesPrometheusprometheus.yml — monitoring configSpring Boot (Java)application.yml — app configurationSwagger/OpenAPIAPI documentation specs
