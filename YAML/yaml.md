@@ -23,3 +23,15 @@
 DevOps interview angle: Interviewer ye zaroor pucheg — "YAML kaha kaha use hota hai apki knowledge me?" — to Kubernetes aur Ansible ka naam zaroor lena, kyunki wahan YAML ki depth zyada dikhani padti hai.
 
 
+| Tool | YAML file ka use |
+| :--- | :--- |
+| **Docker Compose** | `docker-compose.yml` – multi-container apps define karne ke liye |
+| **Kubernetes** | Pod, Deployment, Service definitions (`deployment.yaml`, `service.yaml`) |
+| **Ansible** | Playbooks (`playbook.yaml`) – server automation ke steps define karte hain |
+| **GitLab CI/CD** | `.gitlab-ci.yml` – pipeline stages define karte hain |
+| **CircleCI** | `.circleci/config.yml` |
+| **Helm (K8s package manager)** | `values.yaml`, `Chart.yaml` |
+| **AWS CloudFormation / Serverless Framework** | Infrastructure as Code templates |
+| **Prometheus** | `prometheus.yml` – monitoring config |
+| **Spring Boot (Java)** | `application.yml` – app configuration |
+| **Swagger/OpenAPI** | API documentation specs |
