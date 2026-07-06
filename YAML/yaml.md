@@ -6,11 +6,11 @@
 
 
 # 5. Real-World Use Cases (GitHub Actions ke alawa) — ye tumhare interview ke liye important hai
-> Tool                        YAML file ka use
-- Docker Compose              docker-compose.yml — multi-container apps define karne ke liye
-- Kubernetes                  Pod, Deployment, Service definitions (deployment.yaml, service.yaml)
-- Ansible                     Playbooks (playbook.yml) — server automation ke steps define karte hain
-- GitLab CI/CD               .gitlab-ci.yml — pipeline stages define karte hain
+> Tool                        | YAML file ka use
+- Docker Compose              | docker-compose.yml — multi-container apps define karne ke liye     | 
+- Kubernetes                  | Pod, Deployment, Service definitions (deployment.yaml, service.yaml)|
+- Ansible                     | Playbooks (playbook.yml) — server automation ke steps define karte hain
+- GitLab CI/CD               | .gitlab-ci.yml — pipeline stages define karte hain
 - CircleCI                   .circleci/config.yml
 - Helm (K8s package manager)  values.yaml, Chart.yaml
 - AWS CloudFormation /        Infrastructure as Code templates
