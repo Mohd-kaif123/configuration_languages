@@ -95,3 +95,15 @@ Ye Docker Compose aur Kubernetes me DRY (Don't Repeat Yourself) ke liye use hota
 - Dash ke baad space missing (-item)          List item properly parse nahi hoga  
 - Special characters (:, #, {, }) bina        Unexpected parsing behavior
   quotes ke string me                         
+
+
+# Table:-
+# 3. Effect of breaking rules (galti karoge to kya hoga)
+
+| Galti | Result |
+| :--- | :--- |
+| **Tab use karna indentation ke liye** | Parser error: `"found character that cannot start any token"` |
+| **Colon ke baad space missing** | Parsing error ya value galat interpret hoga |
+| **Inconsistent indentation (kabhi 2, kabhi 4 space)** | `YAMLError: bad indentation` |
+| **Dash ke baad space missing (`-item`)** | List item properly parse nahi hoga |
+| **Special characters (`:`, `#`, `{`, `}`) bina quotes ke string me** | Unexpected parsing behavior |
