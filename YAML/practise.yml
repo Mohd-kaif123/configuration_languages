@@ -29,6 +29,19 @@ services:
     environment: 
       NODE_ENV: production
 
+# Task-4
+servicess:
+  frontend:
+    image: nginx
+    ports:
+     - "80:80" 
+  backend:
+    image: node:18
+    ports: 
+      - "5000:5000"
+    depends_on:
+      - frontend
+
 # =========================================================================
 # SECTION 2: Level-1 Tasks
 # =========================================================================
@@ -99,3 +112,33 @@ service:
     image: nginx:latest
     port: 
       - "8080:80"
+
+#Task-2
+service1:
+  web:
+    image: nginx:latest
+    ports:
+      - "8080:80"
+    environment:
+      APP_ENV=production
+      DEBUG=false
+
+# Task-3
+apiVersion: v1
+kind: Pod 
+metadata:
+  name: test-pod
+
+# Task-4
+apiVersions: v1
+kinds: Pod
+metadatas:
+  name: test-pod
+spec:
+  containers:
+    - name: nginx 
+    - image: nginx:1.25
+
+# =========================================================================
+# SECTION 5:  LEVEL 4 - Advanced Syntax Features
+# =========================================================================
