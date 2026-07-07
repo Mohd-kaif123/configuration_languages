@@ -142,3 +142,38 @@ spec:
 # =========================================================================
 # SECTION 5:  LEVEL 4 - Advanced Syntax Features
 # =========================================================================
+# Task-1
+description: |
+  This is kaif
+  I am learning DevOps
+  I am practise yaml
+
+# Task-2
+default_config: &default
+  timeout: 30
+  retries: 3
+service_a:
+  <<: *default
+  name: kaif
+service_b:
+  <<: *default
+  name: wasi
+
+# Task-3
+---
+kind: pod
+metadata:
+    name: test-pod
+---
+kind: service
+metadata:
+    name: test-service
+
+# Task-4
+port: !!str "8000"
+name: !!str "kaif"
+age: !!int 22
+price: !!float 99.21
+enabled: !!bool true
+
+# Task-5
