@@ -1,0 +1,101 @@
+# =========================================================================
+# SECTION 1: List of Persons and Services
+# =========================================================================
+
+# Task 1
+name: kaif
+college: BNN
+course: DevOps
+skills:
+  - Docker
+  - Linux
+  - Git
+
+# Task-2
+name1: wasi
+college1: NJB
+course1: D-pharm
+address:
+  city: Pune 
+  state: maharashtra
+  pincode: 221547
+
+# Task-3
+services: 
+  app:
+    image: node:18
+    ports:
+      - "3000:3000"
+    environment: 
+      NODE_ENV: production
+
+# =========================================================================
+# SECTION 2: Level-1 Tasks
+# =========================================================================
+
+# Task-1
+name2: kaifj
+city: puneg
+phone_number: 7575454210
+
+# Task-2
+fruits:
+  - mango
+  - apple
+  - banana
+  - orange
+
+# Task-3
+is_student: true
+is_working: false
+
+# Task-4
+# This is my first yaml file
+
+name3: Kaif
+
+# =========================================================================
+# SECTION 3: Level-2 Tasks (Converted to List format to match the file)
+# =========================================================================
+
+# Task-1
+student:
+  name: Kaif
+  college: BNN
+
+# Task-2 
+laptop:
+  brand: Dell
+  ram: 12 GB
+  storage: 512 GB
+
+# Task-3
+students:
+  name4: kjhi
+  collg: SDD
+  add: 
+    city: kelam
+    pincod: 484668
+
+# Task-4
+stud: 
+  name5: gajju
+  college: FDD
+  ADD: 
+    city: lallam
+    pin: 548945
+  subject:
+    - Docker
+    - Linux
+    - Git
+
+# =========================================================================
+# SECTION 4: Level-3 Tasks
+# =========================================================================
+
+# Task-1
+service:
+  web: 
+    image: nginx:latest
+    port: 
+      - "8080:80"

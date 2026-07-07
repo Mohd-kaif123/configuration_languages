@@ -38,7 +38,7 @@ skills: [Docker, Kubernetes, Linux]
 
 
 # Rule 4: Nested structures (maps of maps, lists of maps)
-yamlstudents:
+students:
   - name: Kaif
     course: DevOps
   - name: Rahul
@@ -64,7 +64,7 @@ null_value: null                 # null (ya ~ bhi use hota hai)
 | `null_value: null` | **Null** | Empty value ke liye `null` likhte hain, ya fir sirf tilde (`~`) sign bhi use kar sakte hain. |
 
 # Rule 6: Multi-line strings
-yamldescription: |
+description: |
   Ye pehli line hai.
   Ye doosri line hai.
   Line breaks preserve honge.
@@ -81,8 +81,8 @@ summary: >
 Ye ek comment hai
 name: Kaif  # inline comment bhi chalta hai
 
-Rule 8: Anchors & Aliases (reusability ke liye — advanced but interview me pucha jata hai)
-yamldefault_config: &defaults
+# Rule 8: Anchors & Aliases (reusability ke liye — advanced but interview me pucha jata hai)
+default_config: &defaults
   timeout: 30
   retries: 3
 
